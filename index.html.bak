@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>[简历]蒲煜凡-算法工程师/杭州</title>
+    <link rel="shortcut icon" href="assets/images/11.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/typo.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script>
+        function loading() {
+            document.getElementsByClassName('avatar')[0].style.display = 'block';
+            document.getElementsByClassName('loading')[0].style.display = 'none';
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="header"></header>
+
+    <article class="container">
+        <section class="side" id="side">
+
+            <!-- 左栏固定开关，记得及时删除这段代码 Start-->
+          <!--   <label class="switch" style="display: none;" onchange="switchFixed()">
+                <script type="text/javaScript">
+                    function switchFixed(){
+                        var value = document.getElementById('side').style.position === 'fixed' ? 'absolute' : 'fixed';
+                        document.getElementById('side').style.position = value;
+                    }
+                </script>
+                <input id="cb" type="checkbox">
+                <span class="slider round"></span>
+            </label> -->
+            <style>
+                @media (min-width: 	750px){
+                    .switch{position:relative;display:inline-block!important;width:60px;height:34px;}
+                    .switch input{display:none;}
+                    .slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.4s;transition:.4s;}
+                    .slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:white;-webkit-transition:.4s;transition:.4s;}
+                    input:checked + .slider{background-color:#1abc9c;}
+                    input:focus + .slider{box-shadow:0 0 1px #1abc9c;}
+                    input:checked + .slider:before{-webkit-transform:translateX(26px);-ms-transform:translateX(26px);transform:translateX(26px);}.slider.round{border-radius:34px;}
+                    .slider.round:before{border-radius:50%;}
+                }
+            </style>
+            <!-- 左侧固定开关，记得及时删除这段代码 End-->
+
+            <!-- 个人肖像 -->
+            <section class="me">
+<!--                 <section class="portrait">
+                    <div class="loading">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+                    
+                </section> -->
+                <img class="avatar" src="assets/images/headimg.jpg" style="width: 60%;height: 60%;border-radius: 100px;" onload="loading()">
+<!--                 <img class="avatar" src="assets/images/headimg.jpg"> -->
+                <h1 class="name">肖松月</h1>
+                <h4 class="info-job">(预)全栈工程师</h4>
+
+            </section>
+
+            <!-- 基本信息 -->
+            <section class="profile info-unit">
+                <h2>
+                    <i class="fa fa-user" aria-hidden="true"></i>基本信息</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>个人信息</label>
+                        <span>肖松月 / 男 / 21岁</span>
+                    </li>
+                    <li>
+                        <label>英语水平</label>
+                        <span>CET-4</span>
+                    </li>
+                    <li>
+                        <label>计算机水平</label>
+                        <span>中级软件设计师</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 联系方式 -->
+            <section class="contact info-unit">
+                <h2>
+                    <i class="fa fa-phone" aria-hidden="true"></i>联系方式</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>手机</label>
+                        <a href="tel:18630733446" target="_blank">186-307-33446</a>
+                    </li>
+                    <li>
+                        <label>邮箱</label>
+                        <a href="songyuex@qq.com" target="_blank">songyuex@qq.com</a>
+                    </li>
+                    <li>
+                        <label>个人主页</label>
+                        <a href="https://songyuex.github.io/" target="_blank">https://songyuex.github.io/</a>
+                    </li>
+                    <li>
+                        <label>Github</label>
+                        <a href="https://github.com/songyuex" target="_blank">https://github.com/songyuex</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 技能点 -->
+            <section class="skill info-unit">
+                <h2>
+                    <i class="fa fa-code" aria-hidden="true"></i>技能点</h2>
+                <hr/>
+                <ul>
+					<li>
+                        <label>Java</label>
+                        <progress value="95" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>HTML</label>
+                        <progress value="90" max="100"></progress>
+                    </li>
+					 <li>
+                        <label>web</label>
+                        <progress value="90" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>C/C++</label>
+                        <progress value="85" max="100"></progress>
+                    </li>
+					<li>
+                        <label>C#</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>python</label>
+                        <progress value="75" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>PHP</label>
+                        <progress value="65" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Node.js</label>
+                        <progress value="50" max="100"></progress>
+                    </li>
+
+                   
+                </ul>
+            </section>
+
+            <section class="qrcode info-unit">
+                <h2><i class="fa fa-qrcode" aria-hidden="true"></i>二维码</h2>
+                <hr/>
+                <img src="assets\images\qrcode.png" style="width: 70%;margin-left: 42px;" alt="">
+            </section>
+
+          
+        </section>
+
+        <section class="main">
+
+            <!-- 教育经历 -->
+            <section class="edu info-unit">
+                <h2>
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>教育经历</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>石家庄铁道大学 - 软件工程专业（本科）</span>
+							<br/>
+                            <time>2018.9-2022.7</time>
+                        </h3>
+                        
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 工作经历 -->
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>专业技能</h2>
+                <hr/>
+                <ul>
+                        <ul class="info-content">
+                            <li>熟悉掌握<mark>python</mark>，<mark>C/C++</mark>，<mark>Java</mark>等语言</li>
+                            <li>了解基础的大数据应用相关知识，熟悉<mark>Hadoop</mark>，<mark>Scale</mark>简单了解<mark>Raft</mark>算法。</li>
+                            <li>熟悉<mark>linux</mark>基本命令的使用，有在linux操作系统上的开发经验</li>
+                            <li>熟悉关系型数据库如<mark>SqlServer</mark>和非关系型数据库如<mark>NoSql</mark>的常用语句,了解内部实现的基本原理</li>
+                            <li>具有扎实的编程功底,熟练掌握常用数据结构和算法,熟悉计算机网络原理、操作系统原理等</li>
+                        </ul>
+                </ul>
+            </section>
+
+            <!-- 项目经验 -->
+             <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-trophy" aria-hidden="true"></i>个人荣誉
+                </h2>
+                    <ul>
+                        <li>
+                            <h3>
+                                <span>[1]互联网+国赛铜牌</span>
+                                <time>2019.10.21</time>
+                            </h3>
+                        </li>
+                        <li>
+                            <h3>
+                                <span>[2]东软杯三等奖</span>
+                                <time>2020.09.29</time>
+                            </h3>
+                        </li>
+                        <li>
+                            <h3>
+                                <span>[3]第十一届蓝桥杯全国总决赛C/C++程序设计B组 国二</span>
+                                <time>2020.11.14</time>
+                            </h3>
+                        </li>
+                        <li>
+                            <h3>
+                                <span>[4]2020年高校计算机大赛-团体程序设计天梯赛，团队铜奖</span>
+                                <time>2020.12.10</time>
+                            </h3>
+                        </li>
+                        <li>
+                            <h3>
+                                <span>[5]成功举办第四届石家庄铁道大学程序设计竞赛校内选拔赛</span>
+                                <time>2019-11-16</time>
+                            </h3>
+                        </li>
+                    </ul>
+                <hr/>
+            </section>
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-product-hunt" aria-hidden="true"></i>个人项目</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>[项目1]基于SSM数学组卷系统</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>2019-2020</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：spring+spring-boot+mybatis+</li>
+                            <li>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                [目标]疫情期间，实现教师在线组卷与成绩记录与分析
+                                <br/>
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                [团队/个人]团队开发：主要负责后端代码编写
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[项目2]河北省重大技术需求</span>
+                            <span class="link">
+                                <a href="javascript: void(0)">暂不提供</a>
+                            </span>
+                            <time>2020.10-2020.11</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：JSP+MySQL+Servlet+JavaBean</li>
+                            <li>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                [目标]实现需求提交、审核、分属以及可视化操作
+                                <br/>
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                [团队/个人]自主完成
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[项目3]基于paddlepaddle的行人追踪</span>
+                            <span class="link">
+                                <a href="javascript: void(0)">暂不提供</a>
+                            </span>
+                            <time>2021.5-2021.7</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：paddle detection+YOLOv3+deepsort+AlphaPose+TensorFlow+python</li>
+                            <li>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                [目标]行人追踪与摔倒检测
+                                <br/>
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                [团队]与 2 位同学
+                                <br/>
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                [贡献]前端界面开发以及追踪算法与骨骼识别算法的实现
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 自我评价 -->
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa fa-pencil" aria-hidden="true"></i>自我评价/期望</h2>
+                <hr/>
+                <p>本人热爱计算机事业， 热衷了解学习新兴技术，同时对专业知识涉猎广泛学习深入，乐于接受挑战，喜欢动手开发能够切实改善生活质量的小工具</p>
+            </section>
+        </section>
+    </article>
+
+
+
+    <footer class="footer">
+        <p>© 2021 肖松月.文档最后更新时间为
+            <time>2021年07月1日</time>.</p>
+    </footer>
+
+    <!-- 侧栏 -->
+    <aside>
+        <ul>
+            <li>
+                <a href="https://www.cnblogs.com/xsy948306073/" target="_blank">Blog</a>
+            </li>
+        </ul>
+    </aside>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
